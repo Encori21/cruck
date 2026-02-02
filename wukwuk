@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"corihood"},
         ["Category Fish"] = {
-            
+             
         },
         ["Fish Name"] = {
             {Name = "Ruby", Variant = "Gemstone"},
@@ -76,24 +76,20 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 5,
-            "Luck Totem",
-            "Shiny Totem",
-        },
+            ["Mutation Totem"] = 24,
+       },
     },
     ["Event"] = {
         ["Start Farm"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
-            "Ghost Shark Hunt",
-            "Shark Hunt",
             ["Christmas Cave"] = false,
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
             "Reeler II",
@@ -110,9 +106,10 @@ _G.FishItConfig = _G.FishItConfig or {
             "Cryoshade Glider",
         },
         ["Second Enchant List"] = {
-            "Reeler I",
+            "Mutation Hunter I",
             "Prismatic I",
             "Mutation Hunter II",
+            " Cursed ", 
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -134,8 +131,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"}, 
-            ["Tropical Grove"] = {"Astral Rod", "Midnight Rod"},
-            ["Treasure Room"] = { "Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Treasure Room"] = { "Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod", "Astral Rod"},
         },
         ["Endgame"] = "",
     },
